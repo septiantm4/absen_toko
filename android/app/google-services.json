@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "901650190583",
+    "project_id": "absen-toko",
+    "storage_bucket": "absen-toko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901650190583:android:a48206ecaf3b2d638843f2",
+        "android_client_info": {
+          "package_name": "com.example.absen_toko"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPv_SWpo13kDIqfQ54KXZQ5xJFCN-dI5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
