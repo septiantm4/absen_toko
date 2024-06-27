@@ -12,6 +12,7 @@ class EmployeeShiftDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     var employeeID = shiftDoc['employeeID'];
     var employeeName = shiftDoc['employeeName'];
+    var shiftType = shiftDoc['shiftType'];
     var startDate = (shiftDoc['startDate'] as Timestamp).toDate();
     var endDate = (shiftDoc['endDate'] as Timestamp).toDate();
 
@@ -29,6 +30,8 @@ class EmployeeShiftDetailScreen extends StatelessWidget {
                   style: const TextStyle(fontSize: 18)),
               const SizedBox(height: 8),
               Text('Name: $employeeName', style: const TextStyle(fontSize: 18)),
+              const SizedBox(height: 8),
+              Text('Name: $shiftType', style: const TextStyle(fontSize: 18)),
               const SizedBox(height: 8),
               Text('Start Date: $startDate',
                   style: const TextStyle(fontSize: 18)),

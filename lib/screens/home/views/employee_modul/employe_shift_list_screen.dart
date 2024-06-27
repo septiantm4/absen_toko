@@ -98,6 +98,7 @@ class _EmployeeShiftListState extends State<EmployeeShiftListScreen> {
                         itemBuilder: (BuildContext context, int index) {
                           var doc = _filteredShifts[index];
                           var employeeID = doc['employeeID'];
+                          var shiftType = doc['shiftType'];
                           var employeeName = doc['employeeName'];
                           var startDate =
                               (doc['startDate'] as Timestamp).toDate();
@@ -135,6 +136,13 @@ class _EmployeeShiftListState extends State<EmployeeShiftListScreen> {
                                                 fontSize: 15,
                                                 fontWeight: FontWeight.bold,
                                               ),
+                                            ),
+                                            Text(
+                                              '$shiftType',
+                                              style: const TextStyle(
+                                                  fontSize: 15,
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.blue),
                                             ),
                                             const SizedBox(height: 4),
                                             Text(
